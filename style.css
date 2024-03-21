@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: lightskyblue;
+    width: 100%;
+    padding: 10px 0;
+  
+    
+}
+
+/* LAYOUT */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col25 {
+    width: 200px;
+    height: 25px;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
+
+.col50 {
+    width: 800px;
+    height: 25px;
+    background-color: rgb(44, 157, 137);
+    border: 1px solid black;
+}
+
