@@ -70,6 +70,14 @@ header {
     margin: 25px 0;
 }
 
+.col-big {
+    width: 1200px;
+    height: 600px;
+    background-color: green;
+    border: 1px solid black;
+    margin: 25px 0;
+}
+
 
 /* UTILITY */
 
@@ -85,9 +93,6 @@ header {
     background-color: rgb(62, 63, 66);
 }
 
-.height-gray {
-    height: 500px;
-}
 
 .justify-center {
     justify-content: center;
