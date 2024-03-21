@@ -14,9 +14,13 @@ header {
 
 /* LAYOUT */
 
-.container {
+.container-header {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.container-main {
+    max-width: 100%;
 }
 
 .row {
@@ -38,3 +42,49 @@ header {
     border: 1px solid black;
 }
 
+.col70 {
+    width: 1000px;
+    height: 200px;
+    background-color: rgba(248, 108, 206, 0.816);
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.col60 {
+    width: 50%;
+    height: 200px;
+    background-color: rgba(28, 107, 255, 0.692);
+    border: 1px solid black;
+    margin: 25px;
+}
+
+.col40 {
+    width: 50%;
+    height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+    margin: 25px;
+}
+
+
+/* UTILITY */
+
+.bg-blue {
+    background-color: darkblue;
+}
+
+.bg-gray{
+    background-color: lightgray;
+}
+
+.bg-darkgray {
+    background-color: rgb(62, 63, 66);
+}
+
+.height-gray {
+    height: 500px;
+}
+
+.justify-center {
+    justify-content: center;
+}
