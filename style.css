@@ -78,6 +78,22 @@ header {
     margin: 25px 0;
 }
 
+.col20 {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 72, 130);
+    border: 1px solid black;
+    margin: 25px 0;
+}
+
+.col10 {
+    width: 200px;
+    height: 300px;
+    background-color: rgb(49, 241, 206);
+    border: 1px solid black;
+    margin: 25px 0; 
+}
+
 
 /* UTILITY */
 
