@@ -48,6 +48,7 @@ footer {
     background-color: gold;
     border: 1px solid black;
     border-style: dashed;
+    padding: 3px 6px 3px 6px;
 }
 
 .col50 {
@@ -182,4 +183,16 @@ footer {
 
 .align-center {
     align-items: center ;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.gap {
+    gap: 10px;
 }
