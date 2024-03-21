@@ -23,6 +23,10 @@ header {
     max-width: 100%;
 }
 
+.container {
+    max-width: 1200px;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -51,19 +55,19 @@ header {
 }
 
 .col60 {
-    width: 50%;
-    height: 200px;
+    width: 800px;
+    height: 250px;
     background-color: rgba(28, 107, 255, 0.692);
     border: 1px solid black;
-    margin: 25px;
+    margin: 25px 0;
 }
 
 .col40 {
-    width: 50%;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     background-color: pink;
     border: 1px solid black;
-    margin: 25px;
+    margin: 25px 0;
 }
 
 
